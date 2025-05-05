@@ -1,0 +1,14 @@
+@define-color bar-bg rgba(0, 0, 0, 0);
+
+@define-color main-bg rgba(0, 0, 0, 0.3);
+@define-color main-fg #f1f1f1;
+
+@define-color wb-act-bg rgba(0, 0, 0, 0.5);
+@define-color wb-act-fg #f1f1f1;
+
+@define-color wb-hvr-bg rgba(0, 0, 0, 0.3);
+@define-color wb-hvr-fg #f1f1f1;
+
+@define-color tooltip-bg rgba(0, 0, 0, 0.3);
+@define-color tooltip-fg #e1e1e1;
+
