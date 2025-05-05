@@ -1,0 +1,3 @@
+set recolor true
+set default-bg rgba(0,0,0,0.3)
+set recolor-lightcolor rgba(0,0,0,0)

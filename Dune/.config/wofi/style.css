@@ -1,0 +1,81 @@
+@define-color bg #200203;
+@define-color fg #f3d786;
+@define-color accent #300304;
+@define-color border #a62f03;
+
+* {
+    font-family: "Fira Code Medium";
+    font-size: 12px;
+}
+
+window {
+    margin: 0px;
+    border: 2px solid @border;
+    background-color: @bg;
+}
+
+#input {
+    margin: 5px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: #f3d786;
+    background-color: @accent;
+}
+
+#input:focus {
+    border: 2px solid @border;
+    box-shadow: none;
+}
+
+#input image {
+    border: none;
+    color: @fg;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: @bg;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: @bg;
+}
+
+#scroll {
+    margin: 0px;
+    border-radius: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    color: #f3d786;
+}
+
+#entry:selected #text {
+    color: @border;
+}
+
+#entry arrow {
+    border: none;
+    color: @fg;
+}
+
+#entry:selected arrow {
+    border: none;
+    color: @border;
+}
+
+#entry:selected {
+    border: 2px solid @border;
+    border-radius: 10px;
+    background-color: @accent;
+    box-shadow:none;
+    outline:none;
+}
+
