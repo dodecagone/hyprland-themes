@@ -74,5 +74,3 @@ The `vim` themes were generated using a base16 builder. You can find all the res
 The `sddm` themes were created using [Keyitdev's work](https://github.com/Keyitdev/sddm-astronaut-theme/) as a starting point.
 
 The background images are not mine.
-
-# hyprland-themes
